@@ -167,6 +167,105 @@ Examples:
 - Is the theme already priced into valuation?
 - What single metric would disprove the thesis?
 
+## Large PDF Risk Reduction / Coverage Audit
+
+Large magazine PDFs can create data-loss or hallucination risk when the file is image-based, partially parsed, OCR-heavy, table-heavy or longer than the active context window. This is a context and extraction risk, not a software memory leak.
+
+### Mandatory Pre-Analysis Coverage Audit
+
+Before producing the final Mag Analysis for a large PDF, first check and state:
+
+| Check | Required Status |
+|---|---|
+| Total pages detected | Must be stated |
+| Text parsed? | Yes / No / Partial |
+| Image-only or OCR needed? | Must be stated |
+| Contents page reviewed? | Must be stated |
+| Article map created before analysis? | Must be Yes |
+| Page ranges covered? | Must be listed or summarised |
+| Ads / low-signal pages separated? | Must be Yes |
+| Tables / charts / ranking pages reviewed separately? | Must be Yes when present |
+| External data needed? | Must be clearly marked |
+
+### Page Coverage Rule
+
+Do not analyse only the cover story or first visible pages. Build an article/page map first.
+
+Suggested page coverage table:
+
+| Page Range | Article / Section | Status | Notes |
+|---|---|---|---|
+| 1–5 | Cover / contents / editor note | Covered / Low Signal / Skipped | Reason |
+| 6–15 | News / briefs | Covered / Low Signal / Skipped | Reason |
+| 16–30 | Cover story | Covered | Key evidence |
+| 31–60 | Features / interviews | Covered | Key evidence |
+| 61 onwards | Tables / ads / columns | Covered / Low Signal | Reason |
+
+### Chunking Rule
+
+For large issues, split the analysis into chunks before synthesis:
+
+- cover story
+- macro/news section
+- company articles
+- interviews
+- rankings/tables
+- personal finance sections
+- ads/low-signal sections
+
+The final report should synthesise all chunks, not only the highest-signal article.
+
+### Evidence and Confidence Rule
+
+Use evidence tables wherever possible:
+
+| Claim | Source Article / Page Range | Confidence | Notes |
+|---|---|---|---|
+
+Confidence labels:
+
+- High: directly visible in article/table/chart
+- Medium: inferred from multiple parts of the issue
+- Low: OCR uncertain or needs external validation
+
+### Fact vs Inference Rule
+
+Always separate:
+
+- **Magazine fact** — directly stated in the issue
+- **Analytical inference** — derived from the magazine theme
+- **Stock implication** — possible listed-company beneficiary
+- **External verification needed** — current holdings, prices, valuations, factsheets, order book, etc.
+
+Never convert an inference into a fact.
+
+### Tables, Charts and Fund Holdings Rule
+
+Tables, fund rankings, stock holdings, financial metrics and charts must be treated as high-risk extraction areas.
+
+Rules:
+
+- Do not invent exact numbers if the table is unclear.
+- Do not assume fund holdings from fund names.
+- If a magazine lists funds but not their portfolios, say so clearly.
+- Use external factsheets only when exact holdings/overlap are requested.
+- Mark all externally researched data separately from magazine-sourced data.
+
+### Final Quality Gate Before Publishing or GitHub Push
+
+Before final answer or GitHub save, verify:
+
+1. Full issue coverage was attempted.
+2. Article map is present.
+3. Hard metrics are separated from opinions.
+4. Low-signal/ad pages are not treated as investment signals.
+5. Stock mapping separates direct vs second-order beneficiaries.
+6. Current prices / fund holdings / valuations are not invented.
+7. Uncertain data is labelled clearly.
+8. Report is non-empty and contains the required Mag Analysis sections.
+9. GitHub push happens only after a usable report exists.
+10. GitHub file is fetched after push to verify non-empty content.
+
 ## Explicit Rules
 
 1. Do **not** include an Investment Readiness Score section. The report should identify what is worth tracking and why; Phase 3 decides whether a stock is investable at current price.
