@@ -72,6 +72,42 @@ Includes:
 ### 12. Phase 3 Candidates
 Shortlist of stocks worth deeper analysis before any buy decision.
 
+## Question Handling Rule
+
+Mag Analysis reports should not leave too many unanswered follow-up questions. If a section poses a question, the report must also provide a quick brief answer based on the magazine evidence, available context, or a clearly marked inference.
+
+This applies especially to:
+
+- Section 6: Rabbit Holes / Deeper Research Areas
+- Section 15: Killer Questions Before Phase 3
+- Section 19: Management Questions / Phase 3 Interview Questions
+- Any other question-heavy section
+
+Required format when questions are listed:
+
+| Question | Quick Brief / Initial Answer | Why It Matters | Continue in Phase 3? |
+|---|---|---|---|
+
+Rules:
+
+1. Do not dump questions without a short answer.
+2. If the magazine gives enough evidence, answer the question briefly in the report.
+3. If the answer requires annual reports, earnings calls, current prices, valuation, fund factsheets or external data, say so clearly.
+4. Use labels such as:
+   - **Answered from issue**
+   - **Initial inference**
+   - **Needs Phase 3**
+   - **Needs external verification**
+5. A Phase 3 note should come after the quick brief, not replace it.
+6. The reader should understand the direction of the answer immediately, even before a deep dive.
+
+Example:
+
+| Question | Quick Brief / Initial Answer | Why It Matters | Continue in Phase 3? |
+|---|---|---|---|
+| Is data-centre cooling meaningful for Blue Star? | Initial inference: meaningful but not yet proven as a dominant revenue driver from magazine evidence alone. | Separates structural DC cooling from consumer AC cyclicality. | Yes — verify order book, segment revenue and margin. |
+| Are SIFs already proven products? | Answered from issue: No. They have early AUM traction but limited full-cycle track record. | Avoids chasing new products only because flows are strong. | Yes — review flows, performance and distributor economics. |
+
 ## Top-1% Research Add-ons
 
 The following sections must be added to future Mag Analysis reports where relevant. These are designed to move beyond ordinary summary and convert magazine reading into investable research.
@@ -105,18 +141,22 @@ Suggested table:
 ### 15. Killer Questions Before Phase 3
 For every shortlisted stock, list hard questions that must be answered before buying.
 
+Each killer question must include a quick brief or initial answer. Do not leave this section as only a list of questions.
+
+Required table:
+
+| Stock | Killer Question | Quick Brief / Initial Answer | Phase 3 Continuation |
+|---|---|---|---|
+
 Examples:
 
-| Stock | Killer Question |
-|---|---|
-| VA Tech Wabag | Is order-book growth converting into cash, or are receivables still a problem? |
-| Ion Exchange | Is growth broad-based or project-cycle dependent? |
-| Blue Star | Is data-centre cooling meaningful, or is the business still mostly consumer AC? |
-| GE T&D | Are orders converting into profitable execution? |
-| ABB India | Is valuation already pricing in five years of growth? |
-| Titan | Can non-jewellery categories ever become meaningful? |
-| HAL | Are engine delays delaying revenue recognition? |
-| AWL Agri | Can the FMCG/staples pivot structurally improve margins? |
+| Stock | Killer Question | Quick Brief / Initial Answer | Phase 3 Continuation |
+|---|---|---|---|
+| VA Tech Wabag | Is order-book growth converting into cash, or are receivables still a problem? | Needs Phase 3. The question is critical because water EPC growth can look strong while cash conversion stays weak. | Check OCF, receivables, order quality and working-capital cycle. |
+| Ion Exchange | Is growth broad-based or project-cycle dependent? | Needs Phase 3. The magazine theme alone cannot prove recurrence. | Check segment mix, industrial vs municipal exposure and repeat revenue. |
+| Blue Star | Is data-centre cooling meaningful, or is the business still mostly consumer AC? | Initial inference: data-centre/commercial cooling is relevant, but revenue materiality must be verified. | Check commercial HVAC order book and DC client contribution. |
+| GE T&D | Are orders converting into profitable execution? | Needs Phase 3. Grid capex is attractive only if margins and execution hold. | Check order inflow, execution cycle, EBITDA margin and receivables. |
+| ABB India | Is valuation already pricing in five years of growth? | Needs external valuation check. The business may be strong but crowded. | Compare valuation with growth, ROCE and segment mix. |
 
 ### 16. Variant Perception / What Market May Be Missing
 Identify the non-obvious insight that may not yet be fully priced by the market.
@@ -157,15 +197,22 @@ Convert the issue into a decision backlog.
 ### 19. Management Questions / Phase 3 Interview Questions
 Convert magazine insights into questions that can be used in Phase 3 analysis, earnings calls, annual reports or investor presentations.
 
+Every management question must carry a quick brief / initial answer so the report gives immediate direction.
+
+Required table:
+
+| Question | Quick Brief / Initial Answer | Evidence Basis | Phase 3 Follow-up |
+|---|---|---|---|
+
 Examples:
 
-- What percentage of revenue comes from the theme highlighted in the magazine?
-- Is growth order-book-led, price-led, volume-led or margin-led?
-- Is operating cash flow keeping pace with reported profit?
-- Are receivables rising faster than revenue?
-- Is capex real, funded and executable?
-- Is the theme already priced into valuation?
-- What single metric would disprove the thesis?
+| Question | Quick Brief / Initial Answer | Evidence Basis | Phase 3 Follow-up |
+|---|---|---|---|
+| What percentage of revenue comes from the theme highlighted in the magazine? | Needs company-level verification. Magazine themes identify opportunity, but not always revenue exposure. | Magazine inference + company reports needed. | Check annual report, investor presentation and segment notes. |
+| Is growth order-book-led, price-led, volume-led or margin-led? | Provide an initial classification from the article, then verify. | Article context. | Compare against earnings call and financial statements. |
+| Is operating cash flow keeping pace with reported profit? | Usually not answerable from magazine alone. Must be Phase 3. | External financials required. | Check CFO/PAT, receivables and inventory. |
+| Is the theme already priced into valuation? | Needs current market data. Do not guess from the magazine. | External valuation required. | Check P/E, EV/EBITDA, PEG, ROCE and history. |
+| What single metric would disprove the thesis? | Must be stated in every Phase 3 candidate section. | Analytical inference. | Track one metric that breaks the thesis. |
 
 ## Large PDF Risk Reduction / Coverage Audit
 
@@ -282,3 +329,7 @@ Before final answer or GitHub save, verify:
 
 | Theme | Stock | KPI to Track | Killer Risk | Phase 3 Trigger |
 |---|---|---|---|---|
+
+7. Any question posed in the report must include a quick brief / initial answer before saying it needs Phase 3.
+8. Questions should guide the analysis, not replace the analysis.
+9. If a question cannot be answered from the magazine, clearly label it as **Needs Phase 3** or **Needs external verification** and explain why in one line.
