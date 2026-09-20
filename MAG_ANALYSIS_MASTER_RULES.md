@@ -255,7 +255,8 @@ Check direct or second-order implications for:
 - membranes, resins and treatment chemicals,
 - EPC,
 - recurring O&M/service revenue,
-- water policy/public capex.
+- water policy/public capex,
+- **digital water**: GIS/network mapping, digital twins, smart water meters, IoT pressure/flow/quality sensors, SCADA/remote control, leak/non-revenue-water analytics, predictive maintenance, remote sensing, digital O&M and recurring software/data/service economics.
 
 ### Mandatory correlation triggers
 
@@ -272,6 +273,21 @@ When the issue discusses any of these, explicitly test water demand/read-through
 - industrial/manufacturing capex,
 - airports/logistics parks/large infrastructure,
 - climate/drought/monsoon/groundwater stress.
+
+### Digital Water Layer — mandatory check
+
+For every magazine/investment issue with utility digitisation, AI, geospatial, smart-city, infrastructure-software, climate-resilience or asset-monitoring themes, explicitly test whether there is a credible water/wastewater read-through through:
+- GIS and utility network mapping,
+- 3D digital twins,
+- smart metering and sensors,
+- SCADA / remote monitoring,
+- leak and non-revenue-water detection,
+- predictive maintenance and asset-health analytics,
+- satellite/remote sensing,
+- digital O&M,
+- recurring software/data/service revenue.
+
+Do not classify a generic AI/GIS/automation company as a water beneficiary unless water is a real customer/use case and commercial relevance can be evidenced. Treat digital water as a complementary layer to treatment, pumping, EPC, equipment and O&M.
 
 ### VA Tech WABAG — mandatory check
 
@@ -615,6 +631,7 @@ Before the final answer or GitHub save, verify all of the following:
 10. Hidden theme was checked.
 11. Water-theme correlation is present.
 12. WABAG and Ion Exchange were assessed in the water check.
+12a. Digital-water layer was checked where relevant: GIS/digital twins, smart metering/sensors, SCADA/IoT, leak analytics, predictive maintenance, remote monitoring and recurring software/data economics.
 13. Portfolio relevance was checked.
 14. Career/platform relevance was checked.
 15. KPI tracker exists for major themes.
@@ -658,6 +675,7 @@ Use a compact table like:
 | Hidden Theme | Covered / Checked — no material finding |
 | Water Theme Correlation | Covered |
 | WABAG / Ion Exchange water check | Covered |
+| Digital Water Layer | Covered / Checked — no material finding |
 | Portfolio Relevance | Covered / Checked — no material finding |
 | Career / Platform Relevance | Covered / Checked — no material finding |
 | KPI Tracker | Covered |
